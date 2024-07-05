@@ -1,0 +1,18 @@
+#Inverted Right Angle Triangle Pattern
+
+def inverted_right_angle(n):
+    for i in range(n, -1, -1):
+        print('*' * i)
+
+inverted_right_angle(5)
+
+'''
+output
+
+*****
+****
+***
+**
+*
+
+'''
